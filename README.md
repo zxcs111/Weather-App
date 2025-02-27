@@ -23,24 +23,24 @@ A modern, responsive weather application built with React that provides real-tim
 ## Getting Started
 
 1. Clone the repository:
-\`\`\`bash
+```bash
 git clone [your-repository-url]
-\`\`\`
+```
 
 2. Install dependencies:
-\`\`\`bash
+```bash
 npm install
-\`\`\`
+```
 
 3. Create a `.env` file in the root directory and add your OpenWeatherMap API key:
-\`\`\`env
-REACT_APP_WEATHER_API_KEY=your_api_key_here
-\`\`\`
+```env
+VITE_WEATHER_API_KEY=your_api_key_here
+```
 
 4. Start the development server:
-\`\`\`bash
-npm start
-\`\`\`
+```bash
+npm run dev
+```
 
 ## Deployment
 
@@ -55,7 +55,7 @@ This app can be easily deployed to Vercel:
 
 Make sure to set up the following environment variable in your deployment:
 
-- `REACT_APP_WEATHER_API_KEY`: Your OpenWeatherMap API key
+- `VITE_WEATHER_API_KEY`: Your OpenWeatherMap API key
 
 ## Contributing
 
